@@ -519,9 +519,9 @@ main(int argc, char * argv[])
   // Software Guide : BeginCodeSnippet
   try
   {
-    registration->Update();
+    Registration->Update();
     std::cout << "Optimizer stop condition: "
-              << registration->GetOptimizer()->GetStopConditionDescription()
+              << Registration->GetOptimizer()->GetStopConditionDescription()
               << std::endl;
   }
   catch (const itk::ExceptionObject & err)
